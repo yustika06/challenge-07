@@ -1,0 +1,7 @@
+.tombol button{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.danger.active {  /* mengatur tampilan link yang aktif */
+    color: red;
+}

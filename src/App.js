@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+     
+import './Assets/Komponen/Css/App.css'
+// import HeroInvoice from './Pages/Invoices/HeroInvoice';
+// import PaymentDetail from './Pages/Pesanan/PaymentDetail';
+import Routers from './Router/Routers'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+        <Routers/>
+        {/* <HeroInvoice /> */}
     </div>
   );
 }
